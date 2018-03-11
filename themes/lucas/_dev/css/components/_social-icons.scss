@@ -1,0 +1,36 @@
+.social-icons{
+  display: inline-block;
+  margin: 0 45px;
+
+  .icon{
+    font-size: 20px;
+  }
+
+  .icon-15{
+    .path1, .path2, .path3 {
+      &:before{
+        color: $top-social;
+      }
+    }
+  }
+
+  .icon-14{
+    &:before{
+      color: $top-social !important;
+    }
+  }
+
+
+
+  ul{
+
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 2px;
+    li{
+      display: inline-block;
+      margin: 0 7px;
+    }
+  }
+}

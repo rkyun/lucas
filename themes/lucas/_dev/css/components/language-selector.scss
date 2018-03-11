@@ -1,0 +1,38 @@
+#_desktop_language_selector{
+  display: inline-block;
+}
+
+.language-selector{
+  display: flex;
+  align-items: center;
+  .languages{
+    margin: 0;
+    display: inline;
+  }
+  .languages__item{
+    display: inline-block;
+  }
+
+  .languages__item{
+
+    &:nth-of-type(1):after{
+      content: "|";
+      position: relative;
+      top: -1px;
+
+    }
+    .languages__link{
+      padding: 0 8px;
+      font-weight: 400;
+      color: #888888 !important;
+    }
+  }
+
+  .languages__item-current{
+    .languages__link{
+      color: $brand-primary !important;
+    }
+  }
+}
+
+
