@@ -148,7 +148,7 @@
   margin-top: $medium-space;
   padding-top: $medium-space;
   overflow: hidden;
-  box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: none;
   li {
     margin-bottom: 0.3125rem;
   }
@@ -156,6 +156,10 @@
     color: $gray;
     cursor: pointer;
     font-size: $font-size-sm;
+    line-height: 2em;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
     &:hover {
       color: $brand-primary;
     }
@@ -184,6 +188,7 @@
       .h3 {
         line-height: 1.5;
         font-size: 1rem;
+        margin-bottom: 30px;
       }
       ul {
         background-color: $gray-lighter;

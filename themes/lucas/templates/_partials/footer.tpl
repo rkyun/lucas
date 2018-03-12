@@ -32,9 +32,11 @@
 <div class="footer-container">
   <div class="container">
     <div class="row">
-      {block name='hook_footer'}
-        {hook h='displayFooter'}
-      {/block}
+      <div class="col-md-10 offset-md-2">
+        {block name='hook_footer'}
+          {hook h='displayFooter'}
+        {/block}
+      </div>
     </div>
     <div class="row">
       {block name='hook_footer_after'}
