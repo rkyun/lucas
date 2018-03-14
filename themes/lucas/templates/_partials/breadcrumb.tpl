@@ -27,12 +27,14 @@
     {block name='breadcrumb'}
       {foreach from=$breadcrumb.links item=path name=breadcrumb}
         {block name='breadcrumb_item'}
-          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-            <a itemprop="item" href="{$path.url}">
-              <span itemprop="name">{$path.title}</span>
-            </a>
-            <meta itemprop="position" content="{$smarty.foreach.breadcrumb.iteration}">
-          </li>
+            {if $path.title != 'home' && $path.title != 'Strona główna' }
+              <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a itemprop="item" href="{$path.url}">
+                  <span itemprop="name">{$path.title}</span>
+                </a>
+                <meta itemprop="position" content="{$smarty.foreach.breadcrumb.iteration}">
+              </li>
+            {/if}
         {/block}
       {/foreach}
     {/block}

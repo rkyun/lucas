@@ -8,11 +8,12 @@
     display: block;
   }
   .product-title a {
-    color: $gray;
+    color: #8a8a8a;
     font-size: $font-size-sm;
     text-decoration: none;
     text-align: center;
     font-weight: 400;
+    text-transform: uppercase;
   }
   .thumbnail-container {
     position: relative;
@@ -33,7 +34,7 @@
       }
       .product-description::after{
         content: "";
-        border-top: $gray 1px solid;
+        border-top: none;
         position: absolute;
         width: 80%;
         top: 0;
@@ -48,12 +49,12 @@
   }
   .product-title {
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-top: 1rem;
   }
   .product-price-and-shipping {
-    color: $gray-darker;
-    font-weight: 700;
+    color: #8a8a8a;
+    font-weight: 400;
     text-align: center;
   }
   .variant-links {

@@ -64,7 +64,6 @@ $(document).ready(function () {
       $('#main .js-qv-mask').addClass('scroll');
       $('.scroll-box-arrows').addClass('scroll');
         $('#main .js-qv-mask').scrollbox({
-          direction: 'h',
           distance: 113,
           autoPlay: false
         });

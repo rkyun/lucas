@@ -69,6 +69,7 @@
                             {hook h='displayProductPriceBlock' product=$product type='unit_price'}
 
                             {hook h='displayProductPriceBlock' product=$product type='weight'}
+                            <i class="price-icon icon-03"></i>
                         </div>
                     {/if}
                 {/block}

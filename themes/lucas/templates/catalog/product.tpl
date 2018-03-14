@@ -56,11 +56,11 @@
           <section class="page-content" id="content">
             {block name='page_content'}
               {block name='product_flags'}
-                <ul class="product-flags">
-                  {foreach from=$product.flags item=flag}
-                    <li class="product-flag {$flag.type}">{$flag.label}</li>
-                  {/foreach}
-                </ul>
+                {*<ul class="product-flags">*}
+                  {*{foreach from=$product.flags item=flag}*}
+                    {*<li class="product-flag {$flag.type}">{$flag.label}</li>*}
+                  {*{/foreach}*}
+                {*</ul>*}
               {/block}
 
               {block name='product_cover_thumbnails'}
@@ -75,7 +75,7 @@
           </section>
         {/block}
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 padding-desktop">
           {block name='page_header_container'}
             {block name='page_header'}
               <h1 class="h1" itemprop="name">{block name='page_title'}{$product.name}{/block}</h1>

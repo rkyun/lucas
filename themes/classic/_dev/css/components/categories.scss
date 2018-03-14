@@ -245,10 +245,11 @@
   }
 }
 .block-categories {
-  @include box-shadow;
+  //@include box-shadow;
+  box-shadow: none;
   background: white;
   padding: 1.563rem 1.25rem;
-  margin-bottom: 1.563rem;
+  margin-bottom: 1em !imp;
   .category-sub-menu {
     margin-top: $small-space;
     .category-sub-link{
@@ -258,6 +259,7 @@
       position: relative;
       &[data-depth="1"]{
         margin-bottom: $small-space;
+
       }
     }
     li[data-depth="0"] > a {

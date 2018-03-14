@@ -4,9 +4,9 @@
 parameters:
     database_host:     127.0.0.1
     database_port:     ~
-    database_name:     prestashop
-    database_user:     root
-    database_password: ~
+    database_name:     m1121_lucas
+    database_user:     m1121_lucas
+    database_password: Lucas123
     database_prefix:   ps_
     database_engine: InnoDB
     # You should uncomment this if you want use pdo_sqlite
