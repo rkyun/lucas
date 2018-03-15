@@ -34,20 +34,20 @@ p {
   height: 1.25rem;
   display: inline-block;
   margin: 0.3125rem;
-  @include box-shadow-light;
-  border: 1px solid rgba(0,0,0,0.05);
+  //@include box-shadow-light;
+  border: 2px solid #7a7a7a;
   cursor: pointer;
   background-size: contain;
   &.active,
   &:hover {
-    border: 2px solid $gray-darker;
+    border: 2px solid #7a7a7a;
   }
 }
 .facet-label {
   &.active,
   &:hover {
     .custom-checkbox span.color {
-      border: 2px solid $gray-darker;
+      border: 1px solid $gray-darker;
     }
   }
 }
@@ -63,7 +63,7 @@ p {
 }
 .btn-primary,
 .btn-secondary {
-  @include box-shadow-light;
+  //@include box-shadow-light;
   text-transform: uppercase;
   font-weight: 600;
   padding: 0.5rem 1.25rem;
@@ -122,19 +122,20 @@ small.label, small.value {
   padding: 0.5rem 1rem;
   &:focus {
     background-color: white;
-    outline: 0.1875rem solid $brand-primary;
+    //outline: 0.1875rem solid $brand-primary;
     color: $gray-darker;
   }
 }
 .input-group {
   &.focus {
-    outline: 0.1875rem solid $brand-primary;
+    //outline: 0.1875rem solid $brand-primary;
   }
   .form-control:focus {
     outline: none;
   }
   .input-group-btn {
     height: 100%;
+    background: #959595!important;
     > .btn {
       border: 0;
       box-shadow: none;
@@ -144,6 +145,7 @@ small.label, small.value {
       margin-left: 0;
       padding: 0.625rem 1rem;
       text-transform: uppercase;
+      background: #959595!important;
       &[data-action="show-password"]{
         background: $gray;
         height: 100%;
@@ -228,7 +230,7 @@ input, textarea {
   width: auto;
   float: left;
   display: inline-block;
-  @include box-shadow-light;
+  //@include box-shadow-light;
   input {
     &:focus {
       outline: none;
@@ -290,7 +292,7 @@ input, textarea {
   border-radius: 50%;
   border: $gray 2px solid;
   background: white;
-  margin-right: 1.25rem;
+  margin-right: 7px;
   input[type="radio"] {
     opacity: 0;
     cursor: pointer;
@@ -325,7 +327,7 @@ input, textarea {
       height: 0.9375rem;
       vertical-align: middle;
       cursor: pointer;
-      border: 2px $gray-darker solid;
+      border: 2px solid #7a7a7a;
       .checkbox-checked {
         display: none;
         margin: -0.25rem -0.125rem;

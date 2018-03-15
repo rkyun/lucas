@@ -10,6 +10,8 @@
     }
     input[type=text] {
       padding: 11px;
+      color: #7a7a7a;
+      border: 1px solid rgba(0,0,0,.25);
       &:focus {
         border: 3px $brand-primary solid;
         padding: 8px 8px 9px;
@@ -18,7 +20,7 @@
       width: 100%;
     }
     input {
-      height: 42px;
+      height: 41px;
       box-shadow: none;
     }
   }

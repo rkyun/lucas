@@ -52,7 +52,7 @@ $(document).ready(function () {
       (event) => {
         $('.js-modal-product-cover').attr('src',$(event.target).data('image-large-src'));
         $('.selected').removeClass('selected');
-        $(event.target).addClass('selected');
+        $(event.target).parent().addClass('selected');
         $('.js-qv-product-cover').prop('src', $(event.currentTarget).data('image-large-src'));
       }
     );
@@ -64,6 +64,7 @@ $(document).ready(function () {
       $('#main .js-qv-mask').addClass('scroll');
       $('.scroll-box-arrows').addClass('scroll');
         $('#main .js-qv-mask').scrollbox({
+            direction: 'h',
           distance: 113,
           autoPlay: false
         });

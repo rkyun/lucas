@@ -1,5 +1,12 @@
 .search-widget {
+  display: none;
   float: right;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
   @include search-box;
 }
 .header-top {
