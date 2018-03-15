@@ -38,7 +38,7 @@
         </span>
       </div>
       <ul id="footer_sub_menu_{$_expand_id}" class="collapse">
-        {foreach $linkBlock.links as $link}
+        {foreach $linkBlock.links|@array_reverse as $link}
           <li>
             <a
                 id="{$link.id}-{$linkBlock.id}"

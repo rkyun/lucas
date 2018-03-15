@@ -34,7 +34,7 @@
               <div class="social-icons">
                 <ul>
                   <li>
-                    <a href="https://www.instagram.com/lucasbrondel/">
+                    <a href="https://www.facebook.com/LucasBrondel/">
                       <span class="icon icon-14">
 
                       </span>

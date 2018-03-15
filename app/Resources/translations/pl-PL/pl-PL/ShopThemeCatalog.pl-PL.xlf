@@ -54,13 +54,13 @@ File: src/Adapter/NewProducts/NewProductsProductSearchProvider.php:100</note>
       </trans-unit>
       <trans-unit id="900a70008b0ed52ee5f6907f7b61f0e8" approved="yes">
         <source>Date added, newest to oldest</source>
-        <target xml:lang="pl">Data dodania, od najnowszych do najstarszych</target>
+        <target xml:lang="pl">Najnowsze</target>
         <note>Context:
 File: src/Adapter/NewProducts/NewProductsProductSearchProvider.php:85</note>
       </trans-unit>
       <trans-unit id="c2718c816e7ebf8495e3c9ce20061317" approved="yes">
         <source>Date added, oldest to newest</source>
-        <target xml:lang="pl">Data dodania, od najstarszych do najnowszych</target>
+        <target xml:lang="pl">Najstarsze</target>
         <note>Context:
 File: src/Adapter/NewProducts/NewProductsProductSearchProvider.php:88</note>
       </trans-unit>

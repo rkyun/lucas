@@ -92,16 +92,13 @@
                             <span {if !$js_enabled} class="ps-shown-by-js" {/if}></span>
                           </span>
                         {/if}
-
                         <a
                           href="{$filter.nextEncodedFacetsURL}"
                           class="_gray-darker search-link js-search-link"
                           rel="nofollow"
                         >
                           {$filter.label}
-                          {if $filter.magnitude}
-                            <span class="magnitude">({$filter.magnitude})</span>
-                          {/if}
+
                         </a>
                       </label>
                     </li>
@@ -122,9 +119,7 @@
                         {foreach from=$facet.filters item="filter"}
                           {if $filter.active}
                             {$filter.label}
-                            {if $filter.magnitude}
-                              ({$filter.magnitude})
-                            {/if}
+                            {
                             {$active_found = true}
                           {/if}
                         {/foreach}
@@ -143,9 +138,7 @@
                             class="select-list"
                           >
                             {$filter.label}
-                            {if $filter.magnitude}
-                              ({$filter.magnitude})
-                            {/if}
+
                           </a>
                         {/if}
                       {/foreach}

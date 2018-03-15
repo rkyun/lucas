@@ -25,26 +25,7 @@
 <div class="images-container">
 
 
-  {block name='product_images'}
-    <div class="js-qv-mask mask">
-      <ul class="product-images js-qv-product-images">
-        {foreach from=$product.images item=image}
-          <li class="thumb-container">
-            <img
-              class="thumb js-thumb {if $image.id_image == $product.cover.id_image} selected {/if}"
-              data-image-medium-src="{$image.bySize.product_page.url}"
-              data-image-large-src="{$image.bySize.product_page.url}"
-              src="{$image.bySize.product_page.url}"
-              alt="{$image.legend}"
-              title="{$image.legend}"
-              width="80"
-              itemprop="image"
-            >
-          </li>
-        {/foreach}
-      </ul>
-    </div>
-  {/block}
+
 
     {block name='product_cover'}
       <div class="product-cover">
@@ -52,6 +33,27 @@
         <div class="layer hidden-sm-down" data-toggle="modal" data-target="#product-modal">
           <i class="material-icons zoom-in">&#xE8FF;</i>
         </div>
+      </div>
+    {/block}
+
+    {block name='product_images'}
+      <div class="js-qv-mask mask">
+        <ul class="product-images js-qv-product-images">
+            {foreach from=$product.images item=image}
+              <li class="thumb-container {if $image.id_image == $product.cover.id_image} selected {/if}">
+                <img
+                        class="thumb js-thumb"
+                        data-image-medium-src="{$image.bySize.product_page.url}"
+                        data-image-large-src="{$image.bySize.product_page.url}"
+                        src="{$image.bySize.product_page.url}"
+                        alt="{$image.legend}"
+                        title="{$image.legend}"
+                        width="80"
+                        itemprop="image"
+                >
+              </li>
+            {/foreach}
+        </ul>
       </div>
     {/block}
 </div>

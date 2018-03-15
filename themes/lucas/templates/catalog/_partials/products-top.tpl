@@ -28,6 +28,11 @@
       {block name='breadcrumb'}
           {include file='_partials/breadcrumb.tpl'}
       {/block}
+      {if $listing.label}
+          {block name='product_list_header'}
+            <h2 class="h2 page-custom-title">{$listing.label}</h2>
+          {/block}
+      {/if}
   </div>
   <div class="col-md-6">
     <div class="row sort-by-row">
