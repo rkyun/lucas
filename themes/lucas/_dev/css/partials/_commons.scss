@@ -19,6 +19,10 @@ a:hover {
   color: $brand-primary;
   text-decoration: none;
 }
+
+a{
+  color: #232323  ;
+}
 p {
   font-size: 0.9375rem;
   color: $gray;
@@ -102,7 +106,7 @@ p {
   }
 }
 .card {
-  @include box-shadow;
+
 }
 label ,.label {
   color: $gray-darker;
@@ -116,7 +120,7 @@ small.label, small.value {
   padding-top: 0.625rem;
 }
 .form-control {
-  background: $gray-light;
+  background: white;
   color: $gray;
   border: $input-btn-border-width solid $input-border-color;
   padding: 0.5rem 1rem;
@@ -124,6 +128,9 @@ small.label, small.value {
     background-color: white;
     //outline: 0.1875rem solid $brand-primary;
     color: $gray-darker;
+  }
+  &:disabled{
+    background: white;
   }
 }
 .input-group {
@@ -185,7 +192,7 @@ input, textarea {
   height: 2.625rem;
   -moz-appearance: none;
   -webkit-appearance: none;
-  background: $gray-light url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAPklEQVR4Ae3TwREAEBQD0V/6do4SXPZg7EsBhsQ8IEmSMOsiuEfg3gL3oXC7wK0bd1G4o8X9F4yIkyQfSrIByQBjp7QuND8AAAAASUVORK5CYII=") no-repeat scroll right 0.5rem center / 1.25rem 1.25rem;
+  background: white;
   padding: 0 0.5rem;
 }
 .form-control-valign {

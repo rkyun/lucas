@@ -1,9 +1,18 @@
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1300px
+);
+
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext');
 @import "~bourbon/app/assets/stylesheets/bourbon";
 @import "partials/_variables";
 @import "~bootstrap/scss/bootstrap";
 @import "~bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css";
 @import "partials/_mixins";
+
+
 @import "partials/_fonts";
 @import "partials/_commons";
 @import "components/alert";
@@ -32,7 +41,6 @@
 @import 'components/social-icons';
 /*** HEADER ***/
 #header {
-
   .header-banner{
     max-width: 100%;
     background: #f9f9fb;
@@ -550,6 +558,7 @@
     border: 1px solid rgba(0,0,0,.25);
     background: white;
     border-left: none;
+    height: 41px;
   }
   form input[type=text] {
     border-right: none;

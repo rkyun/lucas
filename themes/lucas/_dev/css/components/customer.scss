@@ -89,11 +89,16 @@
     }
   }
 }
+
+
+
+
 /*** Login page ***/
 .page-authentication {
   #content {
-    @include customer-area-base-box;
+   // @include customer-area-base-box;
     max-width: 640px;
+    margin: 0 auto;
     margin: 0 auto;
   }
 }

@@ -238,7 +238,7 @@
   position: relative;
   img {
     //@include box-shadow;
-    border: 1px solid #d3d3d3;
+    border: none;
     background: white;
   }
   .layer {
@@ -405,7 +405,7 @@
     display: inline;
     position: relative;
     > .thumb {
-      border: 1px solid #efefef;
+      border: none;
       cursor: pointer;
       margin-bottom: $small-space;
       .images-container & {
@@ -417,7 +417,7 @@
     &.selected,
     &:hover {
       > .thumb{
-        border: 1px solid #d3d3de;
+        border: 1px solid white;
       }
     }
     /* this CS forms the triangles */

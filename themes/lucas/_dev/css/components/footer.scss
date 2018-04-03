@@ -13,18 +13,30 @@
       color: #7a7a7a;
       border: 1px solid rgba(0,0,0,.25);
       &:focus {
-        border: 3px $brand-primary solid;
-        padding: 8px 8px 9px;
-        outline: 0;
+        //border: 3px $brand-primary solid;
+        //padding: 8px 8px 9px;
+        //outline: 0;
       }
       width: 100%;
     }
-    input {
+    input[type=text] {
       height: 41px;
       box-shadow: none;
     }
   }
   margin-bottom: 0.625rem;
+
+  .form-check{
+    margin: 15px 0;
+    label{
+      text-align: left;
+      width: 90%;
+      font-size: 13px;
+      padding-left: 1px;
+      color: #7a7a7a;
+    }
+  }
+;
 }
 .block-contact {
   border-left: $gray-light 2px solid;

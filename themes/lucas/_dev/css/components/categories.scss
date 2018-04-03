@@ -156,13 +156,13 @@
     }
     padding-top: $small-space;
     .facet-title {
-      color: $gray;
+      color: #515151;
     }
     .facet-label {
       margin-bottom: 0;
       a {
         margin-top: 0.4375rem;
-        color: $gray-darker;
+        color: #7a7a7a;
         display: inline-block;
         font-size:$font-size-lg;
         font-weight: 400;
@@ -280,6 +280,7 @@
       display: inline-block;
       margin: 0.3125rem 0 0;
       padding-bottom: 15px;
+      color: #7a7a7a;
     }
     li:not([data-depth="0"]):not([data-depth="1"]) {
       padding-left: 0.3125rem;
