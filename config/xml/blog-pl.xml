@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/pl/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/pl/blog/feed.xml</link>
+    <description></description>
+    <language>pl</language>
+     <atom:link href="https://www.prestashop.com/pl/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>PrestaShop wprowadza PrestaTrust, system monitorowania kodu oparty o technologię blockchain.</title>
+    <link>https://www.prestashop.com/pl/blog/wodowanie-prestatrust</link>
+    <description>Po niedawnej aktualizacji do wersji 1.7.3, PrestaShop prezentuje PrestaTrust, system monitorowania kodu oparty o technologię blockchain.</description>
+     <pubDate>Tue, 20 Mar 2018 17:53:09 +0100</pubDate>
+ <dc:creator>camille.teissier</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/wodowanie-prestatrust</guid>
+  </item>
+  <item>
+    <title>PrestaShop 1.7.3.0 już jest!</title>
+    <link>https://www.prestashop.com/pl/blog/prestashop-1-7-3-0-juz-jest-1</link>
+    <description>ŁATWIEJ – SZYBCIEJ – MIĘDZYNARODOWO</description>
+     <pubDate>Thu, 08 Mar 2018 15:07:39 +0100</pubDate>
+ <dc:creator>camille.teissier</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/prestashop-1-7-3-0-juz-jest-1</guid>
+  </item>
+  <item>
+    <title>PrestaShop Was uwielbia! &amp;lt;3</title>
+    <link>https://www.prestashop.com/pl/blog/prestashop-was-uwielbia</link>
+    <description>To była przyjaźń od pierwszego wejrzenia. Kiedy spotkaliśmy się w 2007 roku, połączyły nas 2 pasje: e-commerce i Open Source.</description>
+     <pubDate>Tue, 13 Feb 2018 13:36:04 +0100</pubDate>
+ <dc:creator>prestonfriendspl</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/prestashop-was-uwielbia</guid>
+  </item>
+  <item>
+    <title>Pobierz kalendarz e-commerce na rok 2018!</title>
+    <link>https://www.prestashop.com/pl/blog/pobierz-kalendarz-e-commerce-na-rok-2018</link>
+    <description>Ty masz talent i pomysły – ekipa PrestaShop ma kalendarz, który będzie Ci towarzyszyć przez cały rok!</description>
+     <pubDate>Tue, 06 Feb 2018 10:48:45 +0100</pubDate>
+ <dc:creator>Habiba Ouenniche</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/pobierz-kalendarz-e-commerce-na-rok-2018</guid>
+  </item>
+  <item>
+    <title>Fundusz na rzecz integracji: mamy już 1000 aplikacji!</title>
+    <link>https://www.prestashop.com/pl/blog/integration-fund-1000-applications</link>
+    <description>Fundusz na rzecz integracji: co zrobiliśmy do tej pory?</description>
+     <pubDate>Wed, 25 Oct 2017 09:54:37 +0200</pubDate>
+ <dc:creator>prestonfriendspl</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/integration-fund-1000-applications</guid>
+  </item>
+  <item>
+    <title>Fashion eCommerce, który zachwyca. Elementy efektywnego e-sklepu fashion</title>
+    <link>https://www.prestashop.com/pl/blog/elementy-efektywnego-e-sklepu-fashion</link>
+    <description>Branża fashion należy do najbardziej konkurencyjnych gałęzi eCommerce. Tysiące sklepów, miliony produktów.</description>
+     <pubDate>Thu, 12 Oct 2017 11:43:21 +0200</pubDate>
+ <dc:creator>prestonfriendspl</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/elementy-efektywnego-e-sklepu-fashion</guid>
+  </item>
+  <item>
+    <title>2017 to rekordowy rok: zorganizowano już ponad 100 spotkań PrestaShop! </title>
+    <link>https://www.prestashop.com/pl/blog/2017-to-rekordowy-rok-zorganizowano-juz-ponad-100-spotkan-prestashop</link>
+    <description>23 września 2017 r. to bardzo specjalny rok dla PrestaShop i całej naszej społeczności. Dlaczego? Ponieważ w tym dniu zorganizowano 100 spotkanie, licząc od 1 stycznia!</description>
+     <pubDate>Tue, 03 Oct 2017 11:16:58 +0200</pubDate>
+ <dc:creator>AmbassadorTeam</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/2017-to-rekordowy-rok-zorganizowano-juz-ponad-100-spotkan-prestashop</guid>
+  </item>
+  <item>
+    <title>HTTP 500 – wewnętrzny błąd serwera: wyjaśnienie i rozwiązanie</title>
+    <link>https://www.prestashop.com/pl/blog/http-500-wewnetrzny-blad-serwera-wyjasnienie-i-rozwiazanie</link>
+    <description>Wewnętrzny błąd serwera HTTP 500 potrafi w jedną chwilę zetrzeć uśmiech z twarzy internetowego sprzedawcy i wywołać niemałą konsternację.</description>
+     <pubDate>Fri, 01 Sep 2017 17:17:23 +0200</pubDate>
+ <dc:creator>benjamin utterback</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/http-500-wewnetrzny-blad-serwera-wyjasnienie-i-rozwiazanie</guid>
+  </item>
+  <item>
+    <title>Korzystaj z rozwijającego się handlu elektronicznego bez granic </title>
+    <link>https://www.prestashop.com/pl/blog/e-commerce-trends/korzystaj-z-rozwijajacego-sie-handlu-elektronicznego-bez-granic</link>
+    <description>Przyjemność z zakupów bez ograniczeń związanych z granicami krajów.</description>
+     <pubDate>Fri, 25 Aug 2017 15:55:14 +0200</pubDate>
+ <dc:creator>prestashop-partners</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/e-commerce-trends/korzystaj-z-rozwijajacego-sie-handlu-elektronicznego-bez-granic</guid>
+  </item>
+  <item>
+    <title>Rozpoczęcie roku szkolnego, Black Friday, Boże Narodzenie: pobierz przewodnik e-commerce na koniec roku</title>
+    <link>https://www.prestashop.com/pl/blog/prestashop-news/rozpoczecie-roku-szkolnego-black-friday-boze-narodzenie-pobierz-przewodnik-e-commerce-na-koniec-roku</link>
+    <description>Rozpoczęcie roku szkolnego, Czarny Piątek, gwiazdka: te kilka miesięcy generuje pokaźną część dochodów sklepu internetowego.
+Podejmij wyzwanie!
+ </description>
+     <pubDate>Mon, 17 Jul 2017 14:24:52 +0200</pubDate>
+ <dc:creator>Cécile Dubouis</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/prestashop-news/rozpoczecie-roku-szkolnego-black-friday-boze-narodzenie-pobierz-przewodnik-e-commerce-na-koniec-roku</guid>
+  </item>
+  </channel>
+</rss>

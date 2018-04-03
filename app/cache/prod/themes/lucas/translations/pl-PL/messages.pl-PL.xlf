@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/html/brondel/themes/lucas/modules/homebestsellerstab/views/templates/hook/tab.tpl" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="01f7ac959c1e6ebbb2e0ee706a7a5255">
+        <source>Best sellers</source>
+        <target>Best sellers</target>
+        <note>Context:
+File: /var/www/html/brondel/themes/lucas/modules/homebestsellerstab/views/templates/hook/tab.tpl:12</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/brondel/themes/lucas/modules/homebestsellerstab/views/templates/hook/homebestsellerstab.tpl" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="5b146072cf4406de9b293ca3935d352e">
+        <source>No new products found</source>
+        <target>No new products found</target>
+        <note>Context:
+File: /var/www/html/brondel/themes/lucas/modules/homebestsellerstab/views/templates/hook/homebestsellerstab.tpl:21</note>
+      </trans-unit>
+      <trans-unit id="eae99cd6a931f3553123420b16383812">
+        <source>All best sellers</source>
+        <target>All best sellers</target>
+        <note>Context:
+File: /var/www/html/brondel/themes/lucas/modules/homebestsellerstab/views/templates/hook/homebestsellerstab.tpl:26</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

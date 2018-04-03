@@ -124,7 +124,7 @@
 
 
 
-            {widget name="ps_customtext" hook='displayHome'}
+            {*{widget name="ps_customtext" hook='displayHome'}*}
 
 
 {/if}

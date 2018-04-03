@@ -54,16 +54,12 @@
             <input type="hidden" name="action" value="0">
             <div class="clearfix"></div>
           </div>
-          {*<div class="col-xs-12">*}
-              {*{if $conditions}*}
-                {*<p>{$conditions}</p>*}
-              {*{/if}*}
-              {*{if $msg}*}
-                {*<p class="alert {if $nw_error}alert-danger{else}alert-success{/if}">*}
-                  {*{$msg}*}
-                {*</p>*}
-              {*{/if}*}
-          {*</div>*}
+          <div class="col-xs-12">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" required >
+              <label class="form-check-label" for="exampleCheck1">Wyrażam zgodę na przesyłanie przez Lucas Brondel newslettera o nowościach, planowanych promocjach i akcjach specjalnych dostępnych na lucasbrondel.com</label>
+            </div>
+          </div>
         </div>
       </form>
     </div>

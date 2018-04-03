@@ -1,4 +1,4 @@
-{**
+    {**
  * 2007-2018 PrestaShop
  *
  * NOTICE OF LICENSE
@@ -30,16 +30,16 @@
             {$HOOK_HOME nofilter}
             {assign var='HOOK_HOME_TAB_CONTENT' value=Hook::exec('displayHomeTabContent')}
             {assign var='HOOK_HOME_TAB' value=Hook::exec('displayHomeTab')}
-            {if isset($HOOK_HOME_TAB_CONTENT) && $HOOK_HOME_TAB_CONTENT|trim}
-                <div class="tabs">
-                    {if isset($HOOK_HOME_TAB) && $HOOK_HOME_TAB|trim}
-                        <ul id="home-page-tabs" class="nav nav-tabs clearfix">
-                            {$HOOK_HOME_TAB nofilter}
-                        </ul>
-                    {/if}
-                    <div class="tab-content" id="tab-content">{$HOOK_HOME_TAB_CONTENT nofilter}</div>
-                </div>
-            {/if}
+            {*{if isset($HOOK_HOME_TAB_CONTENT) && $HOOK_HOME_TAB_CONTENT|trim}*}
+                {*<div class="tabs">*}
+                    {*{if isset($HOOK_HOME_TAB) && $HOOK_HOME_TAB|trim}*}
+                        {*<ul id="home-page-tabs" class="nav nav-tabs clearfix">*}
+                            {*{$HOOK_HOME_TAB nofilter}*}
+                        {*</ul>*}
+                    {*{/if}*}
+                    {*<div class="tab-content" id="tab-content">{$HOOK_HOME_TAB_CONTENT nofilter}</div>*}
+                {*</div>*}
+            {*{/if}*}
         {/block}
     </section>
 {/block}
