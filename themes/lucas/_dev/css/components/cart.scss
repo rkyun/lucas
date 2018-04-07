@@ -9,7 +9,13 @@
 }
 .card-block {
   border: 0;
-  padding-top: 0;
+
+}
+
+#contact{
+  .card-block{
+    padding-top: 0;
+  }
 }
 .cart-summary-line {
   @include clearfix;

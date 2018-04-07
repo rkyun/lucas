@@ -11,6 +11,9 @@ $container-max-widths: (
 @import "~bootstrap/scss/bootstrap";
 @import "~bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css";
 @import "partials/_mixins";
+//@import '~slick-carousel/slick/slick';
+//@import '~slick-carousel/slick/slick-theme';
+
 
 
 @import "partials/_fonts";
@@ -207,6 +210,7 @@ $container-max-widths: (
 #index{
   #wrapper{
     background: #f5f5f5;
+    border-top: 1px solid #ddd;
   }
   #footer{
     border-top: 0;
@@ -635,5 +639,58 @@ $container-max-widths: (
 #cart {
   .product-price{
     font-size: 20px;
+  }
+}
+
+#rudr_instafeed{
+  list-style:none;
+  width: 98%;
+  margin: auto;
+}
+#rudr_instafeed li{
+  float:left;
+
+}
+#rudr_instafeed li img{
+  width: 245px;
+  height: 245px;
+  object-fit: cover;
+
+  @media(max-width: 1350px){
+    width: 220px;
+    height: 220px;
+  }
+
+}
+
+.slick-arrow{
+  &:before{
+    color: black;
+  }
+}
+
+.size-table{
+  width: 100%;
+  border-collapse: separate;
+
+  td{
+    font-weight: 400;
+    background: #f1f1f1;
+    padding: .625rem;
+    margin-right: .625rem;
+    min-height: 2.5rem;
+    word-break: normal;
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+    font-size: 14px;
+    color: #232323;
+
+  }
+}
+
+.product-shipment{
+  ul{
+    font-size: .9375rem;
+    color: #7a7a7a;
   }
 }

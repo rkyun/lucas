@@ -38,10 +38,12 @@ import DropDown from './components/drop-down';
 import Form from './components/form';
 import ProductMinitature from './components/product-miniature';
 import ProductSelect from './components/product-select';
+
 import TopMenu from './components/top-menu';
 import './custom'
 
 import prestashop from 'prestashop';
+import slick from 'slick-carousel';
 import EventEmitter from 'events';
 
 import './lib/bootstrap-filestyle.min';

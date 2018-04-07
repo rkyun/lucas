@@ -4,8 +4,9 @@
   word-wrap: break-word;
   h4 {
     text-transform: uppercase;
-    color: $gray-darker;
+    color: #515151;
     margin-bottom: 2rem;
+    font-weight: 400;
   }
   .block {
     height: auto;
@@ -35,6 +36,9 @@
   width: 100%;
   h3 {
     text-transform: uppercase;
-    color: $gray-darker;
+    color: #515151;
+    margin-bottom: 2rem;
+    font-weight: 400;
+
   }
 }

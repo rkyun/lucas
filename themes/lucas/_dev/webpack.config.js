@@ -79,7 +79,8 @@ let config = {
   externals: {
     prestashop: 'prestashop',
     $: '$',
-    jquery: 'jQuery'
+    jquery: 'jQuery',
+      slick: 'slick-carousel'
   },
   plugins: [
     new ExtractTextPlugin(path.join('..', 'css', 'theme.css'))
