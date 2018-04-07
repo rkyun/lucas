@@ -40,6 +40,11 @@
                     {*<div class="tab-content" id="tab-content">{$HOOK_HOME_TAB_CONTENT nofilter}</div>*}
                 {*</div>*}
             {*{/if}*}
+            <div class="row">
+                <div class="col-md-12">
+                    <ul id="rudr_instafeed"></ul>
+                </div>
+            </div>
         {/block}
     </section>
 {/block}

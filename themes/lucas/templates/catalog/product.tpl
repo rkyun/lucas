@@ -75,7 +75,7 @@
           </section>
         {/block}
         </div>
-        <div class="col-md-6 padding-desktop">
+        <div class="col-md-5 padding-desktop">
           {block name='page_header_container'}
             {block name='page_header'}
               <h1 class="h1 full-product-title" itemprop="name">{block name='page_title'}{$product.name}{/block}</h1>
@@ -86,9 +86,7 @@
           {/block}
 
           <div class="product-information">
-            {block name='product_description_short'}
-              <div id="product-description-short-{$product.id}" itemprop="description">{$product.description_short nofilter}</div>
-            {/block}
+
 
             {if $product.is_customizable && count($product.customizations.fields)}
               {block name='product_customization'}
@@ -139,7 +137,9 @@
               {/block}
 
             </div>
-
+              {block name='product_description_short'}
+                  <div id="product-description-short-{$product.id}" itemprop="description">{$product.description_short nofilter}</div>
+              {/block}
             {*{block name='hook_display_reassurance'}*}
               {*{hook h='displayReassurance'}*}
             {*{/block}*}
@@ -161,18 +161,10 @@
                                       href="#description"
                                       role="tab"
                                       aria-controls="description"
-                                      {if $product.description} aria-selected="true"{/if}>{l s='Description' d='Shop.Theme.Catalog'}</a>
+                                      {if $product.description} aria-selected="true"{/if}>{l s='Sizes' d='Shop.Theme.Catalog'}</a>
                           </li>
                       {/if}
-                      <li class="nav-item">
-                          <a
-                                  class="nav-link{if !$product.description} active{/if}"
-                                  data-toggle="tab"
-                                  href="#product-details"
-                                  role="tab"
-                                  aria-controls="product-details"
-                                  {if !$product.description} aria-selected="true"{/if}>{l s='Product Details' d='Shop.Theme.Catalog'}</a>
-                      </li>
+
                       {if $product.attachments}
                           <li class="nav-item">
                               <a
@@ -193,6 +185,15 @@
                                       aria-controls="extra-{$extraKey}">{$extra.title}</a>
                           </li>
                       {/foreach}
+
+                      <li class="nav-item">
+                          <a
+                                  class="nav-link"
+                                  data-toggle="tab"
+                                  href="#shipment"
+                                  role="tab"
+                                  aria-controls="attachments">{l s='Shipment' d='Shop.Theme.Catalog'}</a>
+                      </li>
                   </ul>
 
                   <div class="tab-content" id="tab-content">
@@ -202,9 +203,44 @@
                           {/block}
                       </div>
 
-                      {block name='product_details'}
-                          {include file='catalog/_partials/product-details.tpl'}
-                      {/block}
+                      {*{block name='product_details'}*}
+                          {*{include file='catalog/_partials/product-details.tpl'}*}
+                      {*{/block}*}
+
+                      <div class="tab-pane fade in" id="shipment" role="tabpanel">
+                          <section class="product-shipment">
+
+
+                              <div>
+                                  <p>Standardowe koszty wysyłki (poza okresem promocji) prezentujemy poniżej:<p>
+
+                                      <p>ANSWEAR.com zapewnia swoim klientom darmową dostawę na terenie Polski dla wszystkich zamówień o wartości powyżej 100 zł.
+                                      Jeśli wartość Twojego zamówienia nie przekracza 100 zł, do kwoty zakupów zostaje dodany koszt dostawy w wysokości:</p>
+                                  <p>
+                                  <ul>
+                                      <li>Kurier DPD – 9 zł
+                                      <li>Poczta Polska - kurier - 9 zł</li>
+                                      <li>X-PRESS COURIERS - 9 zł</li>
+                                        </ul>
+                                  </p>
+
+                                  <p>Osobom, którym szczególnie zależy na darmowej wysyłce udostępniamy dodatkowe metody dostawy, które są darmowe bez względu na wartość zamówienia:</p>
+
+                                  <ul>
+                                      <li>
+                                          Odbiór w placówkach Poczty Polskiej, punktach RUCH, na stacji ORLEN oraz wybranych sklepach Żabka i Freshmarket
+                                      </li>
+                                        Odbiór w Punkcie Answear/DPD
+                                      <li>
+                                          Koszt wysyłki dla zamówień do UE
+                                      </li>
+
+
+                                  </ul>
+                              </p>
+                              </div>
+                          </section>
+                      </div>
 
                       {block name='product_attachments'}
                           {if $product.attachments}

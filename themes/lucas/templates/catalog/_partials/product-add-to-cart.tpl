@@ -24,13 +24,11 @@
  *}
 <div class="product-add-to-cart">
   {if !$configuration.is_catalog}
-    <span class="control-label">{l s='Quantity' d='Shop.Theme.Catalog'}</span>
-
     {block name='product_quantity'}
-      <div class="product-quantity clearfix">
-        <div class="qty">
+      <div class="">
+        <div class=">
           <input
-            type="text"
+            type="hidden"
             name="qty"
             id="quantity_wanted"
             value="{$product.quantity_wanted}"

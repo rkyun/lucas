@@ -26,9 +26,13 @@
 <html lang="{$language.iso_code}">
 
   <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     {block name='head'}
       {include file='_partials/head.tpl'}
     {/block}
+
+
   </head>
 
   <body id="{$page.page_name}" class="{$page.body_classes|classnames}">

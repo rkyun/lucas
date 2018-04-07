@@ -24,7 +24,7 @@
  *}
 <div class="product-variants">
   {foreach from=$groups key=id_attribute_group item=group}
-    <div class="clearfix product-variants-item">
+    <div class="product-variants-item">
       <span class="control-label">{$group.name}</span>
       {if $group.group_type == 'select'}
         <select
@@ -36,6 +36,13 @@
             <option value="{$id_attribute}" title="{$group_attribute.name}"{if $group_attribute.selected} selected="selected"{/if}>{$group_attribute.name}</option>
           {/foreach}
         </select>
+          <i class="material-icons" style="
+                position: absolute;
+                right: 12px;
+                top: 50%;
+                z-index: 0;
+                pointer-events: none;
+            "></i>
       {elseif $group.group_type == 'color'}
         <ul id="group_{$id_attribute_group}">
           {foreach from=$group.attributes key=id_attribute item=group_attribute}

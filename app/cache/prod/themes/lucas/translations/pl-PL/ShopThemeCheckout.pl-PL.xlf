@@ -500,7 +500,7 @@ File: /var/www/html/brondel/themes/lucas/templates/checkout/cart.tpl:38</note>
         <source>The minimum purchase order quantity for the product is %quantity%.</source>
         <target>Minimalna ilość zamówienia tego produktu jest %quantity%.</target>
         <note>Context:
-File: /var/www/html/brondel/themes/lucas/templates/catalog/_partials/product-add-to-cart.tpl:77</note>
+File: /var/www/html/brondel/themes/lucas/templates/catalog/_partials/product-add-to-cart.tpl:75</note>
       </trans-unit>
     </body>
   </file>

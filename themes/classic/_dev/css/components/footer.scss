@@ -51,18 +51,18 @@
   font-size: $base-font-size;
 }
 .block-social {
-  text-align: right;
+  text-align: center;
 }
 .block-social li {
   height: 2.5rem;
   width: 2.5rem;
-  background-color: $gray-light;
+  background-color: lightgrey;
   background-repeat: no-repeat;
   display: inline-block;
   margin: 0.125rem;
   cursor: pointer;
   &:hover {
-    background-color: $brand-primary;
+    background-color: black;
   }
   a {
     display: block;
